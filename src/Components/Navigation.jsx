@@ -16,7 +16,10 @@ export const Navigation = () => {
         </li>
         <li className="navbar-item right">
           <a href="#contact" className="contact-button">
-            Contact
+            <span className="text">Contact</span>
+            <span className="icon">
+              <i className="fa-solid fa-paper-plane"></i>
+            </span>
           </a>
         </li>
       </ul>
