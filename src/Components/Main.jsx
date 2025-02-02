@@ -40,7 +40,6 @@ const Main = ({ scrollToPortfolio }) => {
             <span className="highlight">CSS</span>,{" "}
             <span className="highlight">JavaScript</span>,{" "}
             <span className="highlight">React</span>,{" "}
-            <span className="highlight">React Native</span>,{" "}
             <span className="highlight">Python</span>, and{" "}
             <span className="highlight">Next.js</span>, I create efficient and
             visually appealing solutions. Let's bring your project to life—

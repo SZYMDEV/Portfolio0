@@ -22,7 +22,7 @@ const IntroAnimation = () => {
   }, [messages.length]);
 
   if (!isVisible) {
-    return null; // Nie wyświetlaj komponentu, gdy isVisible jest false
+    return null;
   }
 
   return (
