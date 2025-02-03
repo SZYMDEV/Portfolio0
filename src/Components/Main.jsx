@@ -73,15 +73,6 @@ const Main = ({ scrollToPortfolio }) => {
             </a>
           </div>
         </motion.div>
-
-        <motion.div
-          className="right-section"
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-        >
-          <img src={frontImage} alt="Profile" className="profile-image" />
-        </motion.div>
       </div>
     </motion.div>
     </>

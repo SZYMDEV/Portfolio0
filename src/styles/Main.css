@@ -1,17 +1,21 @@
 .main-container {
-  min-height: 100vh;
+  min-height: 50vh;
   background: #0a0a0a;
   color: #f7fafc;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 0;
 }
 
 .content-wrapper {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
   max-width: 1200px;
-  width: 100%;
+  width: 50vh;
   align-items: center;
 }
 
@@ -20,13 +24,15 @@
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 3em;
+  font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .subtitle {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  color: #f7fafc;
 }
 
 .red-line {
@@ -44,17 +50,18 @@
 
 .social-icons {
   display: flex;
-  gap: 1rem;
+  gap: 20px;
+  justify-content: center;
 }
 
 .social-icons a {
   color: #f7fafc;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #e53e3e;
+  color: #007bff;
 }
 
 .profile-image {
@@ -65,7 +72,7 @@
 
 .highlight {
   font-weight: bold;
-  color: #007BFF; /* Example color, adjust as needed */
+  color: #007bff; /* Example color, adjust as needed */
 }
 
 @media (max-width: 768px) {
