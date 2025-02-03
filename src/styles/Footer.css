@@ -74,7 +74,11 @@
   outline: none;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
 }
-
+.email{ 
+  background-color: rgb(255, 0, 0);
+  width: 13em;
+  font-weight: bold;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .container {

@@ -17,7 +17,7 @@ const Footer = () => {
               </div>
               <div className="form-group">
                 <label htmlFor="email">Email</label>
-                <p>kontaktbizn@gmail.com</p>
+                <p className="email">kontaktbizn@gmail.com</p>
               </div>
               <div className="form-group">
                 <label htmlFor="email">Location</label>
