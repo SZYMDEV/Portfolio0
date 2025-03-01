@@ -291,8 +291,9 @@ body {
 
 /* Portfolio Section */
 .portfolio-section {
-  padding: 20px;
+  padding: 30px;
   background-color: white;
+  height: 90%;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -356,8 +357,8 @@ body {
 
 /* Project Info */
 .project-info h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
   color: #333;
   position: relative;
   display: inline-block;
