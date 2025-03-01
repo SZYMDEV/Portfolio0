@@ -1,17 +1,15 @@
 import { useState } from 'react'
-import { Navigation } from './Components/Navigation'
-import Main from './Components/Main'
-import Portfolio from './Components/Portfolio'
-import Footer from './Components/Footer'
-import IntroAnimation from './Components/IntroAnimation'
+import PortfolioPage from './Components/PortfolioPage.jsx'
+import Footer from './Components/Footer.jsx'
+import IntroAnimation from './Components/IntroAnimation.jsx'
+import './App.css'
 
 function App() {
   return (
     <>
-    <IntroAnimation/>
-    <Main/>
-    <Portfolio/>
-    <Footer/>
+      <IntroAnimation/>
+      <PortfolioPage/>
+      <Footer/>
     </>
   )
 }
