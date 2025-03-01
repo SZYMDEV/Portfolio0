@@ -251,7 +251,7 @@ const PortfolioPage = () => {
               ))}
           </div>
 
-          <h2 className="projects-title">Websites Done By Me</h2>
+          <h2 className="projects-title">Websites</h2>
           <div className="projects-grid">
             {projects
               .filter((project) => project.isWebsite)
